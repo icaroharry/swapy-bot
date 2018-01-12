@@ -1,0 +1,28 @@
+{
+  "name": "swapy-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for the Swapy Network Open Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icaroharry/swapy-bot.git"
+  },
+  "keywords": [
+    "swapy",
+    "telegram",
+    "ethereum",
+    "blockchain"
+  ],
+  "author": "Swapy Network",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/icaroharry/swapy-bot/issues"
+  },
+  "homepage": "https://github.com/icaroharry/swapy-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
