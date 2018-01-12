@@ -24,6 +24,6 @@ bot.setWebHook(`${url}/bot${TOKEN}`);
 
 
 // Just to ping!
-bot.onText('/presale', (msg) => {
+bot.onText('/presale', (msg, match) => {
   bot.sendMessage(msg.chat.id, 'The pre-sale will start in mid February, follow our official announcements at https://t.me/SwapyNetwork');
 });
